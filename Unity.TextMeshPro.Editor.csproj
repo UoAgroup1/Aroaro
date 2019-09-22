@@ -248,6 +248,12 @@
     <Reference Include="UnityEditor.Networking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
@@ -278,23 +284,53 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/hjin442/Desktop/Test/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/hjin442/Desktop/Test/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/hjin442/Desktop/Test/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/hjin442/Desktop/Test/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="AssetIdRemapUtility">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/AssetIdRemapUtility/Editor/AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderMeshOps.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderEditor">
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Editor/ProBuilderEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/hjin442/Desktop/Test/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/jrue872/Desktop/Test/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -713,6 +749,32 @@
     <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_TexturePostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Free!Low_Poly_Boxy-Stylized_Trees#0\README.txt" />
+    <None Include="Assets\Fruit Pack\Shaders\ToonLit.shader" />
+    <None Include="Assets\Fruit Pack\Shaders\ToonLitTransparent.shader" />
+    <None Include="Assets\MixedRealityToolkit.Providers\License.txt" />
+    <None Include="Assets\MixedRealityToolkit.Providers\Version.txt" />
+    <None Include="Assets\MixedRealityToolkit.SDK\License.txt" />
+    <None Include="Assets\MixedRealityToolkit.SDK\StandardAssets\Shaders\Hand_Triangles.shader" />
+    <None Include="Assets\MixedRealityToolkit.SDK\Version.txt" />
+    <None Include="Assets\MixedRealityToolkit.Services\License.txt" />
+    <None Include="Assets\MixedRealityToolkit.Services\Version.txt" />
+    <None Include="Assets\MixedRealityToolkit\License.txt" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Fonts\LICENSE.txt" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Shaders\ChannelPacker.shader" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Shaders\InstancedColored.shader" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Shaders\InvisibleShader.shader" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Shaders\MRTK_Wireframe.shader" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Shaders\MixedRealityStandard.shader" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Shaders\MixedRealityTextMeshPro.shader" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Shaders\Text3DShader.shader" />
+    <None Include="Assets\MixedRealityToolkit\StandardAssets\Textures\Oculus lineart attribution.txt" />
+    <None Include="Assets\MixedRealityToolkit\Version.txt" />
+    <None Include="Packages\com.unity.cinemachine\Editor\Resources\CMWaveform.compute" />
+    <None Include="Packages\com.unity.cinemachine\Editor\Resources\CMWaveform.shader" />
+    <None Include="Packages\com.unity.cinemachine\Editor\Resources\StdLib.hlsl" />
+    <None Include="Packages\com.unity.cinemachine\ReleaseNotes.txt" />
+    <None Include="Packages\com.unity.cinemachine\license.txt" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
@@ -728,6 +790,91 @@
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerWindow.uxml" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageSearchToolbar.uxml" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageStatusBar.uxml" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\ACES.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D11.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D12.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D9.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Metal.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\OpenGL.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\PSP2.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\PSSL.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Switch.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Vulkan.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\XboxOne.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\AutoExposure.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Bloom.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Copy.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\CopyStd.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DeferredFog.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DepthOfField.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DepthOfField.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DiscardAlpha.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Distortion.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Dithering.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ExposureHistogram.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ExposureHistogram.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\FinalPass.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Fog.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\GaussianDownsample.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\GrainBaker.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Lut2DBaker.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Lut3DBaker.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MotionBlur.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVO.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVODownsample1.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVODownsample2.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVORender.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVOUpsample.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScalableAO.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScalableAO.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\TemporalAntialiasing.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Texture2DLerp.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Texture3DLerp.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Uber.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Colors.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Histogram.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Histogram.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\LightMeter.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Overlays.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Vectorscope.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Vectorscope.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Waveform.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Waveform.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\ConvertToLog.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\CurveGrid.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\Trackball.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Sampling.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\StdLib.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\xRLib.hlsl" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\About\Font\SIL Open Font License.txt" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\About\ThirdPartyLicenses.txt" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\About\changelog.txt" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\DiffuseVertexColor.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_EdgePicker.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_FacePicker.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_HideVertices.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_LineBillboard.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_NormalPreview.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_PointBillboard.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_ScrollHighlight.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_SelectionPicker.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_SmoothingPreview.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_UnlitSolidColor.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_VertexPicker.shader" />
+    <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_Properties.cginc" />
     <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_SDF Internal SSD.shader" />
   </ItemGroup>
