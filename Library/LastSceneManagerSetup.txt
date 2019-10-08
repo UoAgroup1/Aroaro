@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/Stephen Ho/Desktop/Infosys320Group1(Iteration1) - Copy/Assets/Scenes/AppleTree.unity
+- path: Assets/Scenes/AppleTree.unity
   isLoaded: 1
   isActive: 1
