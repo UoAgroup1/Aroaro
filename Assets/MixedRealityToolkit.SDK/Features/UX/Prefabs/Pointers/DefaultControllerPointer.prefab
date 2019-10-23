@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7488119136884840896}
   - component: {fileID: 114269887534944512}
   - component: {fileID: 3980487836371375048}
+  - component: {fileID: 114376834971370132}
   m_Layer: 0
   m_Name: DefaultControllerPointer
   m_TagString: Untagged
@@ -626,3 +627,22 @@ MonoBehaviour:
   seekTargetStrength: 1.5
   p1Target: {x: 0, y: 0, z: 0.33}
   p2Target: {x: 0, y: 0, z: 0.66}
+--- !u!114 &114376834971370132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247086986094436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef91a627a11b4a22b41dd9109dfd8703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handedness: 1
+  destroyOnSourceLost: 1
+  useSourcePoseData: 1
+  poseAction:
+    id: 0
+    description: None
+    axisConstraint: 0

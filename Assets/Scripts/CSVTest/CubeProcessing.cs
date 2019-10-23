@@ -149,7 +149,7 @@ public class CubeProcessing : MonoBehaviour
         else
         {
             QADataManager.IsGameOver = true;
-            GameObject.Find("Quiz").transform.Find("QText").GetComponent<TextMesh>().text = "Final Score: " + QADataManager.CurrentTotalScore;
+            GameObject.Find("Quiz").transform.Find("QText").GetComponent<TextMesh>().text = "Final Score: " + QADataManager.CurrentTotalScore + " out of 5";
         }
     }
 }

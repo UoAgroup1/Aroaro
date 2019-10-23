@@ -17,6 +17,7 @@ namespace Com.MyCompany.MyGame
         public TextMeshPro PlayerName;
         public GameObject TextPositioner;
         public GameObject playerCameraToFollow;
+        public GameObject Cube;
         private object[] instantiationData;
 
         /*
@@ -90,6 +91,7 @@ namespace Com.MyCompany.MyGame
             {
                 
                 Head.GetComponent<MeshRenderer>().enabled=false;
+                Cube.GetComponent<MeshRenderer>().enabled = false;
                 Head.GetComponent<Collider>().enabled = false;
             }
 
